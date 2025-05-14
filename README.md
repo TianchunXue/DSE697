@@ -37,7 +37,7 @@ python train_ctcf_v3.py
 
 Make sure your input data (`train_tmp.jsonl`, `eval_tmp.jsonl`) follows the structure:
 
-```json
+```js
 {
   "sequence": "ATCG...",
   "labels": [0, 1, 1, 1, 0, ...]  // base-level binary labels
